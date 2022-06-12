@@ -20,7 +20,7 @@ const User = () => {
   useEffect(() => {
     setTimeout(() => {
       fetchUser();
-    }, 2000);
+    }, 1500);
   }, []);
 
   return (

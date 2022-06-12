@@ -21,7 +21,7 @@ const Articles = () => {
   useEffect(() => {
     setTimeout(() => {
       fetchArticle();
-    }, 2000);
+    }, 1500);
   }, []);
 
   return (
